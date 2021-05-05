@@ -21,5 +21,14 @@ public class FindMaximum
 
 
 	}
+	public static String maximumString(  String g, String h,String i) {
+		String maximumValue = g;
+		if (h.compareTo(maximumValue) > 0)
+			maximumValue = h;
+		if (i.compareTo(maximumValue) > 0)
+			maximumValue = i;
+		System.out.println(maximumValue);
+		return maximumValue;
+	}
 
 } 
