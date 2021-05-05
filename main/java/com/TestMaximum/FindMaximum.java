@@ -35,13 +35,7 @@ public class FindMaximum<T extends Comparable<T>> {
 			return maximumValue;
 		}
 
-	// maximum method for more variables
-//	public static <T extends Comparable<T>> T maximumOfObject(T... value) {
-//		List<T> list = Arrays.asList(value);
-//		Collections.sort(list);
-//		System.out.println("Maximum Value is " + list.get(list.size() - 1));
-//		return list.get(list.size() - 1);
-//	}
+	
 	public static <T extends Comparable<T>> T maximumOfObjectOptional(T maximum, T... values) {
 		for (T value : values) {
 
